@@ -1,0 +1,28 @@
+li {
+  list-style: none;
+  /*margin-top: 10px;*/
+}
+
+img {
+  margin: 5px;
+  border-radius: 50%;
+  height: 3em;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+/*.status {
+  display: inline-block;
+}*/
+
+.list-inline {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}

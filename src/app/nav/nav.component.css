@@ -1,0 +1,28 @@
+.navbar-brand {
+  font-size: 65px;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 5px;
+}
+
+/*nav {
+  border-bottom: 1.5px solid #67cac8;
+  text-align: center;
+}*/
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  background-color: #0D343A;
+  color: #C4BBAF;
+  height: 75px;
+}
+
+.icon {
+  width: 55px;
+  margin: 5px;
+  border: 1px;
+  border-color: #0D343A;
+  border-radius: 60%;
+}

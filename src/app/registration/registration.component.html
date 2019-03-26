@@ -1,0 +1,22 @@
+
+  <div class="registration row">
+    <div class="col-md-2">
+      <p></p>
+    </div>
+    <div class="col-md-3 label-col">
+      <label>Email</label><br>
+      <label>Password</label><br>
+      <label>Name</label><br>
+    </div>
+    <div class="col-md-5">
+      <input type="text" class="inputs" #newEmail ><br>
+      <input type="password" class="inputs" #newPassword><br>
+      <input type="text" class="inputs" #displayName><br>
+    </div>
+    <div class="col-md-2">
+      <p></p>
+    </div>
+  </div>
+    <div class="button-holder">
+      <button type="submit" (click)="registerUser(newEmail.value, newPassword.value, displayName.value)">Create Account</button>
+    </div>
